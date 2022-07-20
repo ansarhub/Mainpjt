@@ -1,0 +1,447 @@
+<html>
+	<head>
+        <title>Employee Questionnaire</title>
+    </head>
+<body>
+<div id="myForm">
+<form>
+
+
+<fieldset>
+<Label>Age</Label>
+<input type="text" id="age" name="dff[]" required>
+</fieldset><br>
+
+<fieldset id="g1">
+	<Label>Gender</Label>
+	<input type="radio" value=1 name="g" id="male" required>Male
+	<input type="radio" value=2 name="g" id="female" required>Female
+	<input type="radio" value=0 name="g" id="other" required> Other
+</fieldset><br>
+
+<fieldset id="m1" >
+	<Label>Marital status</Label>
+	<input type="radio" value=1 name="m" id="married" required>Married
+	<input type="radio" value=0 name="m" id="single" required>Single
+
+</fieldset><br>
+
+<fieldset >
+	<Label>Department</Label>
+	<select id="dept" required name="dept">
+		<option value=1>Sales</option>
+		<option value=2>Human Resources</option>
+		<option value=3>Research and Development</option>
+	</select>
+
+</fieldset><br>
+
+<fieldset >
+	<Label>Education Field</Label>
+	<select id="e_roles" required name="ed_field">
+		<option value=1>Life Sciences</option>
+		<option value=2>Medical</option>
+		<option value=3>Technical Degree</option>
+		<option value=4>Human Resources</option>
+		<option value=5>Marketing</option>
+		<option value=6>Other</option>
+	</select>
+
+</fieldset><br>
+
+<fieldset >
+	<Label>Job Role</Label>
+	<select id="j_roles" required name="j_role">
+		<option value=1>Sales Executive</option>
+		<option value=2>Research scientist</option>
+		<option value=3>Manager</option>
+		<option value=4>Laboratory Technician</option>
+		<option value=5>Manufacturing Director</option>
+	</select>
+
+</fieldset><br>
+
+<fieldset id="t_n1" >
+	<Label>Business Travel</Label>
+	<input type="radio" value=1 name="bt" id="fr" required>Frequent
+	<input type="radio" value=2 name="bt" id="rare" required>Rare
+	<input type="radio" value=3 name="bt" id="none" required>None
+
+</fieldset><br>
+
+<fieldset id="t_n2" >
+	<Label>Frequent Overtime work</Label>
+	<input type="radio" value=1 name="ot" id="yes" required>Yes
+	<input type="radio" value=2 name="ot" id="no" required>No
+
+</fieldset><br>
+
+<fieldset >
+	<Label>Monthly Income</Label>
+	<input type="text" id="MI" required>
+</fieldset><br>
+
+
+<fieldset id="group1">
+<center><label>Do you feel valued for your contributions?</label></center><br/><br><br>
+<input type="radio" value=5 name="group1" required>Strongly Agree
+<input type="radio" value=4 name="group1" required> Somewhat Agree
+<input type="radio" value=3 name="group1" required>Strongly Disagree
+<input type="radio" value=2 name="group1" required>Somewhat Disagree
+<input type="radio" value=1 name="group1" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group2">
+<center><label>Do your superiors communicate company news effectively and in a timely manner?</label></center><br/><br><br>
+<input type="radio" value=5 name="group2" required>Strongly Agree
+<input type="radio" value=4 name="group2" required>Somewhat Agree
+<input type="radio" value=3 name="group2" required>Strongly Disagree
+<input type="radio" value=2 name="group2" required>Somewhat Disagree
+<input type="radio" value=1 name="group2" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group3">
+<center><label>Does management seem invested in the success of the team?</label></center><br/><br><br>
+<input type="radio" value=5 name="group3" required>Strongly Agree
+<input type="radio" value=4 name="group3" required>Somewhat Agree
+<input type="radio" value=3 name="group3" required>Strongly Disagree
+<input type="radio" value=2 name="group3" required>Somewhat Disagree
+<input type="radio" value=1 name="group3" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group4">
+<center><label>Do your managers value your feedback?</label></center><br/><br><br>
+<input type="radio" value=5 name="group4" required>Strongly Agree
+<input type="radio" value=4 name="group4" required>Somewhat Agree
+<input type="radio" value=3 name="group4" required>Strongly Disagree
+<input type="radio" value=2 name="group4" required>Somewhat Disagree
+<input type="radio" value=1 name="group4" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group5">
+<center><label>Do you enjoy our company's culture?</label></center><br/><br><br>
+<input type="radio" value=5 name="group5" required>Strongly Agree
+<input type="radio" value=4 name="group5" required>Somewhat Agree
+<input type="radio" value=3 name="group5" required>Strongly Disagree
+<input type="radio" value=2 name="group5" required>Somewhat Disagree
+<input type="radio" value=1 name="group5" required>No Opinion
+
+</fieldset>
+<fieldset id="group6">
+<center><label>My organization is dedicated to diversity and inclusiveness?</label></center><br/><br><br>
+<input type="radio" value=5 name="group6" required>Strongly Agree
+<input type="radio" value=4 name="group6" required>Somewhat Agree
+<input type="radio" value=3 name="group6" required>Strongly Disagree
+<input type="radio" value=2 name="group6" required>Somewhat Disagree
+<input type="radio" value=1 name="group6" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group7">
+<center><label>My organization's fiscal well-being is stable</label></center><br/><br><br>
+<input type="radio" value=5 name="group7" required>Strongly Agree
+<input type="radio" value=4 name="group7" required>Somewhat Agree
+<input type="radio" value=3 name="group7" required>Strongly Disagree
+<input type="radio" value=2 name="group7" required>Somewhat Disagree
+<input type="radio" value=1 name="group7" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group8">
+<center><label>My organization operates in a socially responsible manner</label></center><br/><br><br>
+<input type="radio" value=5 name="group8" required>Strongly Agree
+<input type="radio" value=4 name="group8" required>Somewhat Agree
+<input type="radio" value=3 name="group8" required>Strongly Disagree
+<input type="radio" value=2 name="group8" required>Somewhat Disagree
+<input type="radio" value=1 name="group8" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group9">
+<center><label>I'm overall satisfied with my job security</label></center><br/><br><br>
+<input type="radio" value=5 name="group9" required>Strongly Agree
+<input type="radio" value=4 name="group9" required>Somewhat Agree
+<input type="radio" value=3 name="group9" required>Strongly Disagree
+<input type="radio" value=2 name="group9" required>Somewhat Disagree
+<input type="radio" value=1 name="group9" required>No Opinion
+
+</fieldset>
+
+
+<fieldset id="group10">
+<center><label>My organization has a safe working environment</label></center><br/><br><br>
+<input type="radio" value=5 name="group10" required>Strongly Agree
+<input type="radio" value=4 name="group10" required>Somewhat Agree
+<input type="radio" value=3 name="group10" required>Strongly Disagree
+<input type="radio" value=2 name="group10" required>Somewhat Disagree
+<input type="radio" value=1 name="group10" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group11">
+<center><label>I often neglect my personal needs due to the stress of my work.</label></center><br/><br><br>
+<input type="radio" value=5 name="group11" required>Strongly Agree
+<input type="radio" value=4 name="group11" required>Somewhat Agree
+<input type="radio" value=3 name="group11" required>Strongly Disagree
+<input type="radio" value=2 name="group11" required>Somewhat Disagree
+<input type="radio" value=1 name="group11" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group12">
+<center><label>My work suffers because of everything going on in my personal life. </label></center><br/><br><br>
+<input type="radio" value=5 name="group12" required>Strongly Agree
+<input type="radio" value=4 name="group12" required>Somewhat Agree
+<input type="radio" value=3 name="group12" required>Strongly Disagree
+<input type="radio" value=2 name="group12" required>Somewhat Disagree
+<input type="radio" value=1 name="group12" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group13">
+<center><label>I return home from work too tired to try to do things I wish to do</label></center><br/><br><br>
+<input type="radio" value=5 name="group13" required>Strongly Agree
+<input type="radio" value=4 name="group13" required>Somewhat Agree
+<input type="radio" value=3 name="group13" required>Strongly Disagree
+<input type="radio" value=2 name="group13" required>Somewhat Disagree
+<input type="radio" value=1 name="group13" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group14">
+<center><label>My job makes it difficult to take care of the type of private life I might like</label></center><br/><br><br>
+<input type="radio" value=5 name="group14" required>Strongly Agree
+<input type="radio" value=4 name="group14" required>Somewhat Agree
+<input type="radio" value=3 name="group14" required>Strongly Disagree
+<input type="radio" value=2 name="group14" required>Somewhat Disagree
+<input type="radio" value=1 name="group14" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group15">
+<center><label>I often need to make difficult choices between my work and my personal life</label></center><br/><br><br>
+<input type="radio" value=5 name="group15" required>Strongly Agree
+<input type="radio" value=4 name="group15" required>Somewhat Agree
+<input type="radio" value=3 name="group15" required>Strongly Disagree
+<input type="radio" value=2 name="group15" required>Somewhat Disagree
+<input type="radio" value=1 name="group15" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group16">
+<center><label>You consider yourself as an efficient contributor to the team</label></center><br/><br><br>
+<input type="radio" value=5 name="group16" required>Strongly Agree
+<input type="radio" value=4 name="group16" required>Somewhat Agree
+<input type="radio" value=3 name="group16" required>Strongly Disagree
+<input type="radio" value=2 name="group16" required>Somewhat Disagree
+<input type="radio" value=1 name="group16" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group17">
+<center><label>You have an input in the decisions that are taken in your organization</label></center><br/><br><br>
+<input type="radio" value=5 name="group17" required>Strongly Agree
+<input type="radio" value=4 name="group17" required>Somewhat Agree
+<input type="radio" value=3 name="group17" required>Strongly Disagree
+<input type="radio" value=2 name="group17" required>Somewhat Disagree
+<input type="radio" value=1 name="group17" required>No Opinion
+
+</fieldset>
+
+<fieldset id="group18">
+<center><label>You are enjoying the work you are doing on a daily basis</label></center><br/><br><br>
+<input type="radio" value=5 name="group18" required>Strongly Agree
+<input type="radio" value=4 name="group18" required>Somewhat Agree
+<input type="radio" value=3 name="group18" required>Strongly Disagree
+<input type="radio" value=2 name="group18" required>Somewhat Disagree
+<input type="radio" value=1 name="group18" required>No Opinion
+
+</fieldset>
+
+
+<fieldset id="group19">
+<center><label>You feel connected to your group members</label></center><br/><br><br>
+<input type="radio" value=5 name="group19" required>Strongly Agree
+<input type="radio" value=4 name="group19" required>Somewhat Agree
+<input type="radio" value=3 name="group19" required>Strongly Disagree
+<input type="radio" value=2 name="group19" required>Somewhat Disagree
+<input type="radio" value=1 name="group19" required>No Opinion
+
+</fieldset>
+
+<fieldset>
+<Label>Number of companies worked</Label>
+<input type="text" id="a1" required name="dff[]">
+</fieldset><br>
+
+
+<fieldset>
+<Label>Standard working hours</Label>
+<input type="text" id="a6" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+<Label>Total working years</Label>
+<input type="text" id="a7" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+<Label>Training times last year</Label>
+<input type="text" id="a8" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+	<Label>Years in our company</Label>
+	<input type="text" id="a2" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+	<Label>Years at current role</Label>
+	<input type="text" id="a3" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+	<Label>Years since last promotion</Label>
+	<input type="text" id="a4" required name="dff[]">
+</fieldset><br>
+
+<fieldset>
+	<Label>Years under current manager</Label>
+	<input type="text" id="a5" required name="dff[]">
+</fieldset><br>
+
+<br><br><center><button type="button" id ="check"><a href="home.html">Submit</a>
+</button></center>
+
+</form>
+
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script>
+
+	document.getElementById("check").onclick = function() {
+
+		  var js = 0;
+		  var es = 0;
+		  var wb = 0;
+		  var ji = 0;
+		  var ele = document.getElementsByTagName('input');
+		  var i;
+		  var gen, ms, bt, ot;
+		  var age = parseInt(document.getElementById('age').value);
+		  var c_w = parseInt(document.getElementById('a1').value);
+		  var y_c = parseInt(document.getElementById('a2').value);
+		  var y_curr = parseInt(document.getElementById('a3').value);
+		  var l_pro =  parseInt(document.getElementById('a4').value);
+		  var c_mng =  parseInt(document.getElementById('a5').value);
+		  var wh =  parseInt(document.getElementById('a6').value);
+		  var t_w_y = parseInt(document.getElementById('a7').value);
+		  var t_p = parseInt(document.getElementById('a8').value);
+
+		  for (i = 0; i < ele.length; i++) {
+
+			  if (ele[i].type === "radio") {
+
+				  if (ele[i].checked) {
+					  if (ele[i].name === "group1" || ele[i].name === "group2" || ele[i].name === "group3" || ele[i].name === "group4" || ele[i].name === "group5")
+						  js += parseInt(ele[i].value);
+					  else if (ele[i].name === "group6" || ele[i].name === "group7" || ele[i].name === "group8" || ele[i].name === "group9" || ele[i].name === "group10")
+						  es += parseInt(ele[i].value);
+					  else if (ele[i].name === "group11" || ele[i].name === "group12" || ele[i].name === "group13" || ele[i].name === "group14" || ele[i].name === "group15")
+						  wb += parseInt(ele[i].value);
+					  else if (ele[i].name === "group16" || ele[i].name === "group17" || ele[i].name === "group18" || ele[i].name === "group19")
+						  ji += parseInt(ele[i].value);
+				  }
+			  }
+		  }
+
+          if(document.getElementById("male").checked)
+          {
+              gen = document.getElementById("male").value;
+          }
+          else if(document.getElementById("female").checked)
+          {
+              gen = document.getElementById("female").value;
+          }
+          else if(document.getElementById("other").checked)
+          {
+              gen = document.getElementById("other").value;
+          }
+
+          if(document.getElementById("married").checked)
+          {
+              ms = document.getElementById("married").value;
+          }
+          else if(document.getElementById("single").checked)
+          {
+              ms = document.getElementById("single").value;
+          }
+
+          if(document.getElementById("fr").checked)
+          {
+              bt = document.getElementById("fr").value;
+          }
+          else if(document.getElementById("rare").checked)
+          {
+              bt = document.getElementById("rare").value;
+          }
+          else if(document.getElementById("none").checked)
+          {
+              bt = document.getElementById("none").value;
+          }
+
+          if(document.getElementById("yes").checked)
+          {
+              ot = document.getElementById("yes").value;
+          }
+          else if(document.getElementById("no").checked)
+          {
+              ot = document.getElementById("no").value;
+          }
+
+
+
+
+
+
+
+          var mi = parseInt(document.getElementById('MI').value)
+
+		  var ddlViewBy1 = document.getElementById('dept');
+		  var value1 = ddlViewBy1.options[ddlViewBy1.selectedIndex].value;
+
+		  var ddlViewBy2 = document.getElementById('e_roles');
+		  var value2 = ddlViewBy2.options[ddlViewBy2.selectedIndex].value;
+
+		  var ddlViewBy3 = document.getElementById('j_roles');
+		  var value3 = ddlViewBy3.options[ddlViewBy3.selectedIndex].value;
+
+
+		  js = Math.floor((js / 25) * 100);
+		  js = Math.floor(js / 25);
+		  es = Math.floor((es / 25) * 100);
+		  es = Math.floor(es / 25);
+		  wb = Math.floor((wb / 25) * 100);
+		  wb = Math.floor(wb / 25);
+		  ji = Math.floor((ji / 20) * 100);
+		  ji = Math.floor(ji / 25);
+
+
+		  window.alert(js + " " + es + " " + wb + " " + ji + " " + age + " " + c_w + " " + y_c + " " + y_curr + " " + l_pro +" " + c_mng + " " + wh + " " + value1 + " " + value2 + " " + value3+" "+mi+" "+gen+" "+ms+" "+bt+" "+ot);
+		  const dict_values = {js, es, wb, ji, age, c_w, y_c, y_curr, l_pro, c_mng, wh, value1, value2, value3, mi, gen, ms, bt, ot, t_w_y, t_p};
+		  const s = JSON.stringify(dict_values);
+
+		  $.ajax({
+			  url: "/test",
+			  type: "POST",
+			  contentType: "application/json",
+			  data: JSON.stringify(s)
+		  });
+  };
+</script>
+</body>
+</html>
